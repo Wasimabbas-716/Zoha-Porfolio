@@ -71,5 +71,12 @@ body {
   border-radius: 10px;
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
+@media (width < 750px) {
+  
+body{
+  transform: scale(0.7);
+}
 
+
+}
 
