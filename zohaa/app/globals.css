@@ -73,8 +73,14 @@ body {
 }
 @media (width < 750px) {
   
-body{
-  transform: scale(0.8);
+.mainCard{
+  
+  scale: 0.8;
+  transform: translate(-80% , -80%);
+ 
+  
+ 
+  
 }
 
 
