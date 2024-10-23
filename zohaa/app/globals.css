@@ -72,17 +72,10 @@ body {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 @media (width < 750px) {
-  
-.mainCard{
-  
-  scale: 0.8;
-  transform: translate(-80% , -80%);
- 
-  
- 
-  
+  .mainCard {
+    scale: 0.9;
+    transform: translate(-55%, -60%);
+  }
 }
 
-
-}
 
