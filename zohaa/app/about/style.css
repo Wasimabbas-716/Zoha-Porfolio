@@ -67,6 +67,7 @@
   .about-card {
     grid-template-columns: 1fr;
     text-align: center;
+    padding:5px;
   }
 
   .marq {
