@@ -56,3 +56,12 @@ th {
 .sclc * {
   border: none;
 }
+
+
+@media (width < 750px) {
+
+  .tbl {
+ 
+    scale: 0.6;
+  }
+}
