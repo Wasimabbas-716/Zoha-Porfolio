@@ -74,7 +74,7 @@ iframe:hover {
 @media (width < 920px) {
  
   iframe {
-    width: 100%;
+    width: 80%;
    margin: 0px;
   }
  .mainCards{
