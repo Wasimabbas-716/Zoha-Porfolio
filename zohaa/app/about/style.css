@@ -1,0 +1,164 @@
+.about-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.about-card h2 {
+  color: #ffffff;
+  text-align: center;
+  position: relative; /* Added */
+  margin-top: 40px;
+}
+
+.about-card h2::before {
+  content: "";
+  width: 40%;
+  height: 3px;
+  position: absolute; /* Added */
+  left: 50%; /* Align to center */
+  transform: translateX(-50%); /* Centering */
+  top: 40px;
+  background-color: white;
+}
+
+.about-card div {
+  color: #fffdb7;
+  font-size: 20px;
+}
+
+.marq {
+  animation: marquee 25s linear infinite;
+
+  margin-top: 500px;
+}
+.marq >h2{
+  margin-bottom: 40px;
+  
+}
+.picns {
+  margin-top: 15px;
+  width: 90%;
+  height: 20%;
+  max-height: 300px;
+  max-width: 250px;
+  transition: all 0.5s;
+}
+.picns:hover {
+  filter: drop-shadow(1px 1px 10px rgb(156, 156, 156));
+}
+
+.scl {
+  width: fit-content;
+  position: absolute;
+  top: 85%;
+  left: 50px;
+  margin: 0 auto;
+  width: 100%;
+  
+
+}
+.scl > div > a > img {
+  width: 5%;
+ margin-left: 30px;
+ 
+  
+}
+.ul{
+color: #15bcde;
+}
+@keyframes marquee {
+  0% {
+    transform: translateY(20);
+    opacity: 0%;
+  }
+  5% {
+    opacity: 100%;
+  }
+  100% {
+    transform: translateY(-200%);
+  }
+}
+
+
+@media (width < 720px) {
+
+  .about-card {
+    display: grid;
+    grid-template-columns:  1fr;
+    padding: 20px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-card h2 {
+    color: #ffffff;
+    text-align: center;
+    position: relative; /* Added */
+    margin-top: 40px;
+  }
+  
+  .about-card h2::before {
+    content: "";
+    width: 40%;
+    height: 3px;
+    position: absolute; /* Added */
+    left: 50%; /* Align to center */
+    transform: translateX(-50%); /* Centering */
+    top: 40px;
+    background-color: white;
+  }
+  
+  .about-card div {
+    color: #fffdb7;
+    font-size: 20px;
+  }
+  .mrqu{
+   overflow: hidden;
+    width: 90%;
+    text-align: center;
+    height: 200px;
+    position: absolute;
+    padding: 10px;
+    bottom: 0px; left: 0px;
+  }
+  .marq {
+    animation: marquee 50s linear infinite;
+  
+    overflow: hidden;
+  }
+  .marq >h2{
+    margin-bottom: 40px;
+    
+  }
+  .picns {
+    margin-top: 15px;
+    width: 90%;
+    height: 20%;
+    max-height: 300px;
+    max-width: 250px;
+    transition: all 0.5s;
+  }
+  .picns:hover {
+    filter: drop-shadow(1px 1px 10px rgb(156, 156, 156));
+  }
+  
+  .scl {
+   display: none;
+    
+  
+  }
+  .scl > div > a > img {
+    width: 5%;
+   margin-left: 30px;
+   
+    
+  }
+  .ul{
+  color: #15bcde;
+  }
+
+
+}
