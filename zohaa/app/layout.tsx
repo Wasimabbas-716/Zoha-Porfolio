@@ -29,6 +29,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+
+        <script type='text/javascript' src='//pl24884218.profitablecpmrate.com/7c/e2/7f/7ce27fb950b7e4a50f608b38d935b02f.js'></script>
       </body>
     </html>
   );
